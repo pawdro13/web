@@ -1,5 +1,5 @@
 {	"expiration" : {"day":1},
-	"conditions": [ ["starts-with", "$key", "daniel.mostowski/"],
+	"conditions": [ ["starts-with", "$key", "pawel.drozdz/"],
     				 {"bucket": "lab4-weeia"}, 
     				 {"acl": "private"},
     				 {"success_action_redirect": "http://drozdzLB-198897847.us-west-2.elb.amazonaws.com//list"},
