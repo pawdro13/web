@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarCovy/AWS_ProjectWEB.git"
+    "url": "https://github.com/pawdro13/web"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarCovy/AWS_ProjectWEB/issues"
+    "url": "https://github.com/pawdro13/web/issues"
   },
-  "homepage": "https://github.com/MarCovy/AWS_ProjectWEB",
+  "homepage": "https://github.com/pawdro13/web",
   "dependencies" : {
     "webs-weeia": "0.0.2",
     "queuemanager": "^0.2.6",
