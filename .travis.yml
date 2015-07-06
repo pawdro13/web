@@ -2,5 +2,13 @@ language: node_js
 node_js:
 - '0.10'
 before_install: npm install -g mocha
-
-
+deploy:
+  provider: s3
+  access_key_id: AKIAICNMOXUTECZZ2HYQ
+  secret_access_key:
+    secure: n3Krh3rPMj5z7tv/pL/5MsRezl6mYGwpwycuuQr1v80gZiqzvOSUPFIWS/aFjgi75GLyaR/LiWHQtSXhBxeMnPrquEIbnOquzwpW5FcML28DK7KLsrBIVNZNxKc4S4dZ2frgX2gELFugf+NKnNyr+pP6SeqHFo+fhvheHnybqM9fsPmeuY9qk3R8uCH17HuXfCX/XhezMq75HxmruLSWdoeJXq47/VT0lIYQMjEvRxB8FdvN6de6sCz38O8zuk0gwtDWrCsZIFbrw3Tn9CF39c/UeE2rDpqz7VGIT0gp1XDK5ArC1HMCfqt57BECJ4R2hZxmq4x0yiwW/m/NlrJxGtFl5OCMuD3swgUHZDVTT4L6DyHyVyHRJ5zlCO7OLuRaAhw8/7MGcyqKf5AkLWrh5f5LYurLAfAQWYAFO06FEAClEY7fHutc9dCDNBUzb+d0kM5KKvb1+qnyVncM9ahjVfsXDtf/8jYaQJGfFAcaJXti9kZmMB5ozB5zMkfBGIGqnDP62v4lxHbdzGmmJXkyq7p0KkaS8t0Q4um2Gc51H0xIvy8U7+Nq1p76xV/Q4FsoUXoHqfLkjzaNDYO77DsxfM02Hc6jLHvrXHKFW8FjNmrjZfGEeuE8JQuatTOaA1eHt8GDbNbFQnS5qJJdryzvpYCMMEiCbWmq4jS6kBrqb2Y=
+  bucket: deploy­-weeia
+  upload-dir: drozdz
+  acl: public_read
+  on:
+    repo: pawdro13/web
