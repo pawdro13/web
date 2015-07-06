@@ -4,7 +4,7 @@ var AWS = require("aws-sdk");
 var configFilePath = "config.json";
 var prefix = "pawel.drozdz";
 var appConfig = {
-	"QueueUrl" : "https://sqs.us-west-2.amazonaws.com/983680736795/mostowskiSQS"
+	"QueueUrl" : "https://sqs.us-west-2.amazonaws.com/983680736795/drozdzsqs"
 }
 //commit
 var Queue = require("queuemanager");
