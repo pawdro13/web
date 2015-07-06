@@ -2,7 +2,7 @@ var helpers = require("../helpers");
 var template = "send.ejs";
 var AWS = require("aws-sdk");
 var configFilePath = "config.json";
-var prefix = "daniel.mostowski";
+var prefix = "pawel.drozdz";
 var appConfig = {
 	"QueueUrl" : "https://sqs.us-west-2.amazonaws.com/983680736795/mostowskiSQS"
 }
