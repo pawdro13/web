@@ -25,7 +25,7 @@ exports.action = function(request, callback) {
 					Value: key,
 					Replace: false
 				}],
-				DomainName: 'daniel.mostowski', /* required */
+				DomainName: 'pawel.drozdz', /* required */
 				ItemName: "Wyslano do kolejki" /* required */
 			};
 			simpledb.putAttributes(dbParams, function(err, data) {
