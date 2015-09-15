@@ -2,7 +2,7 @@ var helpers = require("../helpers");
 var template = "list.ejs";
 var AWS = require("aws-sdk");
 var configFilePath = "config.json";
-var prefix = "daniel.mostowski";
+var prefix = "pawel.drozdz";
 
 var removeRoot = function(arr){
 	var newArr = [];
